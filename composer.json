@@ -1,0 +1,23 @@
+{
+    "name": "eqingdan/sa-sdk-php",
+    "description": "The PHP SDK for Sensors Analytics",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jack Hu",
+            "email": "hutushen222@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EQingdan\\SensorsAnalytics\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
+}
